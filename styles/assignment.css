@@ -1,0 +1,120 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+}
+
+.header{
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 652px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px ;
+}
+
+.head-title {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: right;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner{
+    text-align: center;
+    line-height: 30px;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 68px;
+    padding: 10px 50px 7px;
+    line-height: 80px;
+}
+
+.banner-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    line-height: 100px;
+}
+
+.btn-sec{   
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+
+}
+.group{
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+main{
+    max-width:1140 px;
+    max-height: 1395px;
+    margin: 0 auto;
+    padding: 80px 97px;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.about{
+    border-radius: 16px;
+    padding: 1000px 245px auto;
+}
